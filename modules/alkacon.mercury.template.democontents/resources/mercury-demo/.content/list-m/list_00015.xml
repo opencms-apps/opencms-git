@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/list_config.xsd">
+  <ListConfig language="en">
+    <Title><![CDATA[Accordion list with all supported Types]]></Title>
+    <TypesToCollect>m-faq:m/display/accordion/faq</TypesToCollect>
+    <TypesToCollect>m-article:m/display/accordion/article</TypesToCollect>
+    <TypesToCollect>m-decoy:m/display/accordion/decoy</TypesToCollect>
+    <TypesToCollect>m-event:m/display/accordion/event</TypesToCollect>
+    <TypesToCollect>m-job:m/display/accordion/job</TypesToCollect>
+    <TypesToCollect>m-imageseries:m/display/accordion/imageseries</TypesToCollect>
+    <TypesToCollect>m-media:m/display/accordion/media</TypesToCollect>
+    <SearchFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/mercury-demo/]]></target>
+        <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+      </link>
+    </SearchFolder>
+    <Category/>
+    <CategoryMode><![CDATA[OR]]></CategoryMode>
+    <SortOrder><![CDATA[ORDER_DESC]]></SortOrder>
+  </ListConfig>
+</ListConfigs>
