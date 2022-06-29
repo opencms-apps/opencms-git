@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentSectionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/alkacon.mercury.template/schemas/section.xsd">
+  <ContentSection language="en">
+    <Title><![CDATA[Demo 3: Page Layout]]></Title>
+    <Text name="Text0">
+      <links/>
+      <content><![CDATA[<p>Demo 3 shows how to generate flexible page layouts in apps by using the OpenCms JSON API to access information from a container page. Container pages can provide content managers with a web based editor that shows pages very similar to the way they will appear in the app later.</p>]]></content>
+    </Text>
+  </ContentSection>
+</ContentSectionData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/list_config.xsd">
+  <ListConfig language="en">
+    <Title><![CDATA[Text tile list with all supported Types]]></Title>
+    <TypesToCollect>m-article:m/display/article-text-tile</TypesToCollect>
+    <TypesToCollect>m-decoy:m/display/decoy-text-tile</TypesToCollect>
+    <TypesToCollect>m-event:m/display/event-text-tile</TypesToCollect>
+    <TypesToCollect>m-media:m/display/media-text-tile</TypesToCollect>
+    <TypesToCollect>m-job:m/display/job-text-tile</TypesToCollect>
+    <TypesToCollect>m-faq:m/display/faq-text-tile</TypesToCollect>
+    <TypesToCollect>m-imageseries:m/display/imageseries-text-tile</TypesToCollect>
+    <SearchFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/mercury-demo/]]></target>
+        <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+      </link>
+    </SearchFolder>
+    <Category/>
+    <CategoryMode><![CDATA[OR]]></CategoryMode>
+    <SortOrder><![CDATA[DATE_ASC]]></SortOrder>
+  </ListConfig>
+</ListConfigs>

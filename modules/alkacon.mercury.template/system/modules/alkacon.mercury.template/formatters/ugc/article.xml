@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NewFormatters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/formatters/new_formatter.xsd">
+  <NewFormatter language="en">
+    <NiceName><![CDATA[%(key.type.ugc_config.formatter.article.form)]]></NiceName>
+    <Type><![CDATA[ugc_config]]></Type>
+    <Key><![CDATA[m/ugc/article]]></Key>
+    <Jsp>
+      <link type="WEAK">
+        <target><![CDATA[/system/modules/alkacon.mercury.template/formatters/ugc/article.jsp]]></target>
+        <uuid>246c35d5-4b50-4c20-9853-ce60e5ce3715</uuid>
+      </link>
+    </Jsp>
+    <Rank><![CDATA[900]]></Rank>
+    <Match>
+      <Types>
+        <ContainerType><![CDATA[element]]></ContainerType>
+        <ContainerType><![CDATA[article]]></ContainerType>
+      </Types>
+    </Match>
+    <AutoEnabled>false</AutoEnabled>
+    <SearchContent>false</SearchContent>
+    <StrictContainers>true</StrictContainers>
+    <Plugin>
+      <Group><![CDATA[css]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.template/formatters/ugc/ugc.css]]></target>
+          <uuid>85273494-9589-11ec-ac5e-0242ac11002b</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[js-defer]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/handleStatic/gwt/ugc/ugc.nocache.js]]></target>
+          <uuid>00000000-0000-0000-0000-000000000000</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[js-defer]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/handleStatic/ugc/ugc-jquery.js]]></target>
+          <uuid>00000000-0000-0000-0000-000000000000</uuid>
+        </link>
+      </Target>
+    </Plugin>
+    <Plugin>
+      <Group><![CDATA[js-defer]]></Group>
+      <Target>
+        <link internal="true" type="WEAK">
+          <target><![CDATA[/system/modules/alkacon.mercury.template/resources/js/ugc-article.js]]></target>
+          <uuid>d30c6472-731b-4bf9-bd65-e7a9871b0c88</uuid>
+        </link>
+      </Target>
+    </Plugin>
+  </NewFormatter>
+</NewFormatters>

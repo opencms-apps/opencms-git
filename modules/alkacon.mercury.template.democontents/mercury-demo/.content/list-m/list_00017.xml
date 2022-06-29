@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.config/schemas/list_config.xsd">
+  <ListConfig language="en">
+    <Title><![CDATA[Image tile list with all supported types]]></Title>
+    <TypesToCollect>m-article:m/display/imagetile/article</TypesToCollect>
+    <TypesToCollect>m-decoy:m/display/imagetile/decoy</TypesToCollect>
+    <TypesToCollect>m-event:m/display/imagetile/event</TypesToCollect>
+    <TypesToCollect>m-media:m/display/imagetile/media</TypesToCollect>
+    <SearchFolder>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/mercury-demo/]]></target>
+        <uuid>acb43685-5224-11e5-9495-0242ac11002b</uuid>
+      </link>
+    </SearchFolder>
+    <Category/>
+    <CategoryMode><![CDATA[OR]]></CategoryMode>
+    <SortOrder><![CDATA[DATE_DESC]]></SortOrder>
+  </ListConfig>
+</ListConfigs>
